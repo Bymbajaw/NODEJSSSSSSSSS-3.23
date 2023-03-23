@@ -3,6 +3,7 @@ const route = Router();
 const user = require("../controllers/user.controllers");
 const auth = require("../middleware/auth")
 
+route.get("/user", user.getAll)
 route.post("/user", user.register);
 route.post("/login", user.login);
 route.post("/userall", auth, user.getAll);
