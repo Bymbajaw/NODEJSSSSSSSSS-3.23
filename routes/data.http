@@ -1,0 +1,29 @@
+###
+
+POST http://localhost:9000/api/user
+Content-Type: application/json
+
+{
+  "email":"bebebe15@gmail.com",
+  "password":"bebe0512"
+}
+
+###
+
+POST http://localhost:9000/api/login
+Content-Type: application/json
+
+{
+  "email":"bebebe15@gmail.com",
+  "password":"bebe0512"
+}
+
+###
+POST http://localhost:9000/api/userall
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0MWJhN2UwNjExOGU3ZGQ2M2ZhMDU5ZiIsImVtYWlsIjoiYmViZWJlMTVAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkdzhuUmpQdjIweUluOTFENFNRRzQyTzQ1ZDl6eGQ1Z1d2VGgxeHU5T3J4NFBuR1k3TGliZ0siLCJfX3YiOjB9LCJpYXQiOjE2Nzk1MzQwNTQsImV4cCI6MTY3OTU0MTI1NH0.nsUAnDqPrDzQjsdnYyl3t3bxrzHiGzpgfQr2dBO3kZQ"
+}
+
+
